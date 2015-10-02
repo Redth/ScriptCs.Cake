@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ScriptCs.Cake</id>
+    <version>1.0.7</version>
+    <authors>Redth</authors>
+    <owners>Redth</owners>
+    <licenseUrl>http://github.com/Redth/ScriptCs.Cake</licenseUrl>
+    <projectUrl>http://github.com/Redth/ScriptCs.Cake</projectUrl>
+    <!-- <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl> -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Get a simple Cake context in your ScriptCs scripts</description>
+    <tags>Cake ScriptCs Cakebuild</tags>
+    <dependencies>
+      <dependency id="Cake" version="0.5.4" />
+      <dependency id="Cake.Core" version="0.5.4" />
+      <dependency id="ScriptCs.Contracts" version="0.15.0" />
+    </dependencies>
+  </metadata>
+
+  <files>
+      <file src="./ScriptCs.Cake/bin/Release/ScriptCs.Cake.dll" target="lib/net45" />      
+   </files>
+</package>
