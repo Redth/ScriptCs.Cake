@@ -1,3 +1,9 @@
+OBSOLETE
+========
+
+You should now just use [Cake.Bridge](https://github.com/devlead/Cake.Bridge/) for accessing a Cake Context from ScriptCS.
+
+
 ScriptCs.Cake
 =============
 
